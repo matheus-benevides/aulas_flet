@@ -4,7 +4,7 @@ import flet as ft
 def main(page: ft.Page):
     page.title = "Meu Primeiro AppFlet"
     #Titulo do App
-    page.bgcolor =  "gray"
+    page.bgcolor =  "red"
     #Cor de Fundo da Página
     page.vertical_alignment = ft.MainAxisAlignment.CENTER
     page.horizontal_alignment = ft.CrossAxisAlignment.CENTER
