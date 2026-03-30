@@ -26,14 +26,14 @@ def main(page: ft.Page):
         controls = [
             ft.Container(
                 content = ft.Text('HP: 100', text_align = ft.TextAlign.CENTER, weight='bold'),
-                bgcolor = "red400",padding=10, border_radius=8,expand=3
+                bgcolor = "red400",padding=10, border_radius=8,expand=2
             ),
             ft.Container(
                 content=ft.Text("MP: 50", text_align=ft.TextAlign.CENTER, weight='bold'),
                 bgcolor = "red400",padding=10, border_radius=8,expand=1
             ),
             ft.Container(
-                content=ft.Text("XP: 9999", text_align=ft.TextAlign.CENTER, weight='bold'),
+                content=ft.Text("XP: 99", text_align=ft.TextAlign.CENTER, weight='bold'),
                 bgcolor = "amber400",padding=10, border_radius=8,expand=1
             ),
         ],
