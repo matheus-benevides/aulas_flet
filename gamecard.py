@@ -25,7 +25,7 @@ def main(page: ft.Page):
     status_bar = ft.Row(
         controls = [
             ft.Container(
-                content = ft.Text('HP: 100', text_align = ft.TextAlign.CENTER, weight='bold'),
+                content = ft.Text('HP: 150', text_align = ft.TextAlign.CENTER, weight='bold'),
                 bgcolor = "red400",padding=10, border_radius=8,expand=2
             ),
             ft.Container(
